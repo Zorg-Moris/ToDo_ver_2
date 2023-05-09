@@ -21,12 +21,12 @@ public get numberTaskCompleted():number{
   return this.model.getNumberTasksCompleted();
  }
 
-public addTaskItem(item:TaskItem){
+public addTaskItem(item:TaskItem):void{
   this.model.addTaskItem(item);
 }
 
 
-public deleteTaskItem(id:string){
+public deleteTaskItem(id:string):void{
    this.model.deleteTask(id);
  }
 
