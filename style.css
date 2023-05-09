@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #3ec9e9;
+  }
+
+  .input_task {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    background: none;
+    border: none;
+    color: #3ec9e9;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-top: 1px solid #ced8e433;
+    border-bottom: 1px solid #ced8e433;
+  }
+
+  .container {
+    color: #ced8e4;
+    background: #3d3f5c;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px solid #2b2d42;
+    box-shadow: 5px 5px 5px #2b2d4280;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .tasks{
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #2b2d42;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .task {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .task_name{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .completed{
+    text-decoration: line-through;
+    color: #d736bc;
+  }
+
+  .btn_wrapper{
+    width: 300px;
+  }
+
+  .btn_task{
+   width: 80px;
+  }
+
+  .edit_input{
+    width: 250px;
+    margin-left: 10px;
+    height: 25px;
+  }
+
+  .edit_task {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn_wrapper_edit{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn_wrapper_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hide{
+    display: none;
+  }
