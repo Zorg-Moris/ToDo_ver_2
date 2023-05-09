@@ -16,7 +16,6 @@ export default class View {
 
   private updateTotal(): void {
     const taskTotal = this.controller.totalCountTaskItems;
-    console.log("taskTotal View - ", taskTotal);
     const taskCount: Element = document.getElementById('count')!;
      taskCount.innerHTML = `Task: <span>${taskTotal}</span>`;
   };
@@ -35,7 +34,6 @@ export default class View {
   }
 
    private loadNewTask(item:TaskItem):void{
-   
     const tasksContainer:HTMLElement = document.getElementById('tasks')!;
 
     const divContainer:HTMLDivElement = document.createElement('div');

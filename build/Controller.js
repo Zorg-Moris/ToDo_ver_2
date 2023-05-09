@@ -8,7 +8,6 @@ export default class Controller {
         return this.model.taskItems;
     }
     get totalCountTaskItems() {
-        console.log('this.model.totalTasks - ', this.model.totalTask);
         return this.model.totalTask;
     }
     get numberTaskCompleted() {

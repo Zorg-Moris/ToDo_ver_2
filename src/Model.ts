@@ -17,7 +17,6 @@ export default class Model {
     ]
 
     public get totalTask():number{
-        console.log("totalTask -  this.storeTasks.length - ", this.storeTasks.length);
         return this.storeTasks.length;
     }
 
@@ -33,9 +32,6 @@ export default class Model {
 
     public addTaskItem(item:TaskItem):void{
          this.storeTasks.push(item);
-         console.log("item - ", item);
-         console.log("this.storeTasks.length - ", this.storeTasks.length);
-         console.log("this.storeTasks - ", this.storeTasks);
     }
 
     public deleteTask(id:string):void{

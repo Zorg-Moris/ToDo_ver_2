@@ -12,7 +12,6 @@ export default class Model {
         }
     ];
     get totalTask() {
-        console.log("totalTask -  this.storeTasks.length - ", this.storeTasks.length);
         return this.storeTasks.length;
     }
     get taskItems() {
@@ -24,9 +23,6 @@ export default class Model {
     }
     addTaskItem(item) {
         this.storeTasks.push(item);
-        console.log("item - ", item);
-        console.log("this.storeTasks.length - ", this.storeTasks.length);
-        console.log("this.storeTasks - ", this.storeTasks);
     }
     deleteTask(id) {
         const index = this.storeTasks.findIndex(item => item.id === id);

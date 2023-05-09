@@ -10,7 +10,6 @@ export default class View {
     }
     updateTotal() {
         const taskTotal = this.controller.totalCountTaskItems;
-        console.log("taskTotal View - ", taskTotal);
         const taskCount = document.getElementById('count');
         taskCount.innerHTML = `Task: <span>${taskTotal}</span>`;
     }

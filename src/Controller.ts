@@ -1,5 +1,5 @@
+import Model from "./Model.js";
  import {TaskItem} from './type';
- import Model from "./Model.js";
 
 export default class Controller {
   private model:Model;
@@ -14,7 +14,6 @@ export default class Controller {
 }
 
 public get totalCountTaskItems(): number {
-  console.log('this.model.totalTasks - ',this.model.totalTask);
   return this.model.totalTask;
 }
 
